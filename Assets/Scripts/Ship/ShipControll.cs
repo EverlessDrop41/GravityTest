@@ -71,8 +71,8 @@ public class ShipControll : MonoBehaviour {
         }
     }
 
-    float lastX;
-    float lastY;
+    //float lastX;
+   // float lastY;
 
     IEnumerator WaitForRequest(WWW www)
     {
@@ -86,8 +86,8 @@ public class ShipControll : MonoBehaviour {
             float x = float.Parse(xStr);
             float y = float.Parse(yStr) - 9.81f;
 
-            lastX = x;
-            lastY = y;
+         //   lastX = x;
+          //  lastY = y;
 
             if (x > 0) 
             {

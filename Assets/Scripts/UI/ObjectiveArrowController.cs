@@ -14,7 +14,7 @@ public class ObjectiveArrowController : MonoBehaviour {
     {
         Vector3 ObjectiveScreenPos = Camera.main.WorldToScreenPoint(Objective.position);
 
-        Vector3 ArrowWorldPos = Camera.main.ScreenToWorldPoint(Arrow.transform.position);
+       // Vector3 ArrowWorldPos = Camera.main.ScreenToWorldPoint(Arrow.transform.position);
 
         Vector3 ArrowDirection = Objective.position - transform.position;
         float ArrowAngle = Mathf.Atan2(ArrowDirection.y, ArrowDirection.x) * Mathf.Rad2Deg;
